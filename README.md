@@ -17,6 +17,10 @@ This command will:
 2. change the working directory to that folder
 3. run the image with the bazel run command.
 
+## Docker Hub
+
+The image can be pulled from [Docker Hub](https://hub.docker.com/repository/docker/laudempax/deepmind-bazel).
+
 ## Source
 
 Source is hosted on [Github](https://github.com/LaudemPax/deepmind-bazel-docker-image).
