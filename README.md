@@ -12,7 +12,10 @@ Navigate to the folder where the repository is downloaded and use the following 
 docker run -it -v ${PWD}:/build -w /build laudempax/deepmind-bazel:ubuntu-20.04 run -c opt :print_names_and_sources <path to downloaded dataset>/dm-code_contests/code_contests_valid.riegeli
 ```
 
-This will mount the current directory (as in ${PWD}) as a volume onto the /build folder in the container, change the working directory to that folder and finally run the image with the bazel run command.
+This command will:
+1. mount the current directory (as in ${PWD}) as a volume onto the /build folder in the container
+2. change the working directory to that folder
+3. run the image with the bazel run command.
 
 ## Source
 
