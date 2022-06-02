@@ -16,4 +16,4 @@ This will mount the current directory (as in ${PWD}) as a volume onto the /build
 
 ## Source
 
-Source is hosted on Github.
+Source is hosted on [Github](https://github.com/LaudemPax/deepmind-bazel-docker-image).
