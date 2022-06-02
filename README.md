@@ -13,8 +13,8 @@ docker run -it -v ${PWD}:/build -w /build laudempax/deepmind-bazel:ubuntu-20.04 
 ```
 
 This command will:
-1. mount the current directory (as in ${PWD}) as a volume onto the /build folder in the container
-2. change the working directory to that folder
+1. mount the current directory (as in ${PWD}) as a volume onto the /build folder in the container.
+2. change the working directory to that folder.
 3. run the image with the bazel run command.
 
 ## Docker Hub
